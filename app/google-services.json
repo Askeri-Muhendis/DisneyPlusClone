@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "474947529738",
+    "project_id": "disney-plus-clone-59a4d",
+    "storage_bucket": "disney-plus-clone-59a4d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:474947529738:android:015a9c1ad561d9421683f3",
+        "android_client_info": {
+          "package_name": "com.junior.kekod.disneyplusclone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "474947529738-s9jsck85m138ncejibcmisokpve67dg0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBy47CxaiwsPQiLrAeDaIza_SFk6Jp4ws4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "474947529738-s9jsck85m138ncejibcmisokpve67dg0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
