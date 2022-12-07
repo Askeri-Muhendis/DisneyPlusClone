@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/onboarding_color"
+    android:layout_height="match_parent"
+    tools:context=".presentation.onboarding.OnBoardingFragment">
+
+
+    <ImageView
+        android:id="@+id/moviePoster"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:contentDescription="@string/imageview_description"
+        android:background="@drawable/onboarding_bakcground"
+        android:scaleType="fitXY"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/onBoardingDescriptionTxt"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/shadowEffect"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:contentDescription="@string/imageview_description"
+        android:background="@drawable/shadoweffect"
+        app:layout_constraintBottom_toBottomOf="@+id/disneyPlusIcon"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <ImageView
+        android:id="@+id/disneyPlusIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/imageview_description"
+        android:src="@drawable/disney_icon"
+        app:layout_constraintBottom_toTopOf="@+id/onBoardingCollaborative"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/onBoardingDescriptionTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="-10sp"
+        android:gravity="center"
+        android:text="@string/onboarding_collaborative_txt"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/onBoardingCollaborative"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/onBoardingCollaborative"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/imageview_description"
+        android:src="@drawable/onboarding_collaborative"
+        app:layout_constraintBottom_toTopOf="@+id/onBoardingSignUpBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/onBoardingSignUpBtn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/on_boarding_sign_up_btn"
+        android:backgroundTint="@color/btn_color"
+        android:layout_marginBottom="8dp"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/onBoardingPriceInformationTxt"
+        app:layout_constraintEnd_toEndOf="@+id/onBoardingPriceInformationTxt"
+        app:layout_constraintStart_toStartOf="@+id/onBoardingPriceInformationTxt" />
+
+    <TextView
+        android:id="@+id/onBoardingPriceInformationTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/price_information_txt"
+        android:textColor="@color/txt_gray_color"
+        android:gravity="center"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/view"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginBottom="16dp"
+        android:background="@color/gray_color"
+        app:layout_constraintBottom_toTopOf="@+id/onBoardingSignInBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/onBoardingSignInBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:textColor="@color/white"
+        android:background="@android:color/transparent"
+        android:text="@string/sign_in_btn_txt"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
