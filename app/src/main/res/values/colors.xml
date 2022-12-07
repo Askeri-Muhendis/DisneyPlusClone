@@ -7,7 +7,12 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-
+    <!--Splash Screen-->
     <color name="navigation_bar_color">#204498</color>
     <color name="status_bar_color">#070628</color>
+    <!--On Boarding Screen-->
+    <color name="gray_color">#222431</color>
+    <color name="txt_gray_color">#b8b8c2</color>
+    <color name="btn_color">#0072d2</color>
+    <color name="onboarding_color">#161922</color>
 </resources>
